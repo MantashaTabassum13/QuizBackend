@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm i",
+    "build": "npm i && npm i -g nodemon",
     "start": "node index.js",
     "server": "node index.js"
   },
