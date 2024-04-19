@@ -9,7 +9,7 @@ const uri = 'mongodb+srv://mantashatabassum16409:PasmreqTq9ZdbHxo@cluster0.7cdc8
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:3000"]
+  origin: ["http://localhost:3000","https://quiz-five-mauve.vercel.app"]
 }));
 
 app.use(express.json());
